@@ -1,0 +1,56 @@
+Guide to control NodeMCU ESP8266 via Router with Sinric Pro
+---------------------------
+
+To control a NodeMCU ESP8266 via a router with Sinric Pro, you can follow the following steps:
+
+Sign up for a Sinric Pro account: Go to the Sinric Pro website (https://sinric.pro/) and create an account.
+
+Create a new device: Once you have created your account, you will need to create a new device. Select "Add New Device" from the dashboard and fill in the required fields such as device name, device type, and other necessary details.
+
+Install the necessary libraries: You will need to install the following libraries on your NodeMCU ESP8266 board:
+
+ArduinoJson
+ESP8266WiFi
+WiFiClientSecure
+SinricPro.h
+You can install these libraries using the Arduino IDE Library Manager.
+
+Configure your NodeMCU ESP8266: Open your Arduino IDE and select your board (NodeMCU ESP8266) and the correct port from the Tools menu. Then, copy and paste the following code into your Arduino IDE:
+
+#include <ESP8266WiFi.h>
+#include <WiFiClientSecure.h>
+#include <SinricPro.h>
+
+#define WIFI_SSID "your_ssid"
+#define WIFI_PASS "your_password"
+
+#define APP_KEY    "your_app_key"
+#define APP_SECRET "your_app_secret"
+#define DEVICE_ID  "your_device_id"
+
+WiFiClientSecure client;
+SinricPro sinric(APP_KEY, DEVICE_ID, client);
+
+void setup() {
+  Serial.begin(9600);
+  WiFi.begin(WIFI_SSID, WIFI_PASS);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(1000);
+    Serial.println("Connecting to WiFi...");
+  }
+  Serial.println("Connected to WiFi");
+  sinric.begin();
+}
+
+void loop() {
+  sinric.handle();
+}
+
+
+Make sure to replace the placeholders (your_ssid, your_password, your_app_key, your_app_secret, and your_device_id) with your actual values.
+
+Upload the code: Upload the code to your NodeMCU ESP8266 board.
+
+Test your device: You can now use the Sinric Pro app or website to test your device and control it via your router.
+
+That's it! You should now be able to control your NodeMCU ESP8266 via your router with Sinric Pro.

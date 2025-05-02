@@ -1,0 +1,17 @@
+Hardwares
+
+NodeMCU ESP8266
+Relay Module ( 4 Channel or 8 Channel , 5V )
+DC Motor ( 5V )
+BreadBoard
+Jumber Wires ( Male / Female )
+
+Softwares & Application
+
+Arduino IDE
+Blynk's Application for Android-Based
+Blynk's Software for Web-Based
+Tinkercard Simulation Software ( If needed )
+
+
+

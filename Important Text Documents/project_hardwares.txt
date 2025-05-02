@@ -1,0 +1,10 @@
+Bill of materials
+
+1 ) ESP8266 NodeMCU / ESP8266 WiFi Module
+2 ) +5V Dual Channel Relay Module
+3 ) +24V DC Motor
+4 ) +24V Switched Mode Power Supply
+5 ) +5V Adaptor
+6 ) Limit Switch ( Plunger )
+7 ) Some mechanical parts to fit curtain
+8 ) Additional wires, etc.

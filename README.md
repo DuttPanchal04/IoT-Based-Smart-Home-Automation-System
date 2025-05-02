@@ -108,6 +108,7 @@ Sinric Pro: https://sinric.pro/
 - [Project Report PDF](https://github.com/DuttPanchal04/IoT-Based-Smart-Home-Automation-System/tree/main/Project%20Reports%20and%20Presentation)
 - [Circuit Diagram](https://github.com/DuttPanchal04/IoT-Based-Smart-Home-Automation-System/tree/main/Schematic%20Diagram)
 - [Block Diagram](https://github.com/DuttPanchal04/IoT-Based-Smart-Home-Automation-System/tree/main/Block%20Diagram)
+- [PCB Design](https://github.com/DuttPanchal04/IoT-Based-Smart-Home-Automation-System/tree/main/Project%20PCB%20Design%20Files)
 - Refer Text Documents also for more guidance.
 
 # Final Result

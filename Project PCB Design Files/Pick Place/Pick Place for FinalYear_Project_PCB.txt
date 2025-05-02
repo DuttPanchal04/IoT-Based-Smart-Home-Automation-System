@@ -1,0 +1,35 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\Projects\FinalYear_Project_PCB\Project Outputs for FinalYear_Project_PCB\Pick Place\Pick Place for FinalYear_Project_PCB.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       28-03-23
+Time:       15:40
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator Comment            Layer    Footprint            Center-X(mil) Center-Y(mil) Rotation Description                                                                                                 
+R4         MBB02070C6200FCT00 TopLayer FP-MBB0207-MFG       3820.000      740.000       180      "RES 620 OHM 0.6W 1% AXIAL"                                                                                 
+R3         MBB02070C6200FCT00 TopLayer FP-MBB0207-MFG       4020.000      2050.000      360      "RES 620 OHM 0.6W 1% AXIAL"                                                                                 
+IC7805     L7805              TopLayer 78XXS                1870.000      1130.000      180      "Linear Voltage Regulator IC 1 Output 1.5A D2PAK"                                                           
+Q2         BC547              TopLayer TO92-CBE             4040.000      1040.000      180      "Trans GP BJT NPN 45V 0.1A 500mW 3-Pin TO-92 T/R"                                                           
+Q1         BC547              TopLayer TO92-CBE             4010.000      1330.000      180      "Trans GP BJT NPN 45V 0.1A 500mW 3-Pin TO-92 T/R"                                                           
+D4         LED1               TopLayer LED-1                3830.000      1860.000      360      "Typical RED GaAs LED"                                                                                      
+D3         LED1               TopLayer LED-1                3840.000      370.000       360      "Typical RED GaAs LED"                                                                                      
+T1         ST-3-56            TopLayer PCBCOMPONENT_1       620.000       1390.000      270      "Split Bobbin Low Power Transformer | 2.4VA Power | 115V Input | 10VCT Output Series"                       
+J3         282834-3           TopLayer TE_282834-3          490.000       390.000       270      ""                                                                                                          
+B1         MB10S-13           TopLayer SOIC245P670X290-4N   1390.000      1900.000      180      "Bridge Rectifier Single Phase Standard 1 kV Surface Mount MBS"                                             
+R2         MBB02070C6200FCT00 TopLayer FP-MBB0207-MFG       3470.000      880.000       90       "RES 620 OHM 0.6W 1% AXIAL"                                                                                 
+R1         MBB02070C6200FCT00 TopLayer FP-MBB0207-MFG       3410.000      1850.000      270      "RES 620 OHM 0.6W 1% AXIAL"                                                                                 
+D2         "Diode 1N4001"     TopLayer DO-41                3620.000      370.000       90       "1 Amp General Purpose Rectifier"                                                                           
+D1         "Diode 1N4001"     TopLayer DO-41                3630.000      1850.000      90       "1 Amp General Purpose Rectifier"                                                                           
+J2         282834-3           TopLayer TE_282834-3          5320.000      425.000       270      ""                                                                                                          
+J1         282834-3           TopLayer TE_282834-3          5320.000      1815.000      270      ""                                                                                                          
+K2         SRD-05VDC-SL-C     TopLayer RELAY_SRD-05VDC-SL-C 4660.630      435.000       360      "5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi" 
+K1         SRD-05VDC-SL-C     TopLayer RELAY_SRD-05VDC-SL-C 4660.630      1805.000      360      "5V Trigger Relay Module For Arduino And Raspberry Pi 5V Trigger Relay Module For Arduino And Raspberry Pi" 
+C3         C0603C104K5RACTU   TopLayer FP-C0603C-CF-MFG     3315.000      595.000       90       "CAP CER 0.1UF 50V X7R 0603"                                                                                
+C2         C0603C104K5RACTU   TopLayer FP-C0603C-CF-MFG     1870.000      1340.000      180      "CAP CER 0.1UF 50V X7R 0603"                                                                                
+C1         EEEFP1E471AP       TopLayer FP-FPG-MFG           1880.000      1690.000      360      "CAP ALUM 470UF 20% 25V SMD"                                                                                
+A1         113990105          TopLayer SEEED_113990105      2705.000      1215.000      360      "- ESP8266 Transceiver; 802.11 b/g (Wi-Fi, WiFi, WLAN) 2.4GHz Evaluation Board"                             

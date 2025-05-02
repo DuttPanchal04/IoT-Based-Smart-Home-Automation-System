@@ -1,0 +1,466 @@
+#
+#Component attribute names
+#
+@0 .comp_mount_type
+@1 .comp_height
+
+# CMP 0
+CMP 4 3.82 0.74 180 N R4 MBB02070C6200FCT00 ;0=2,1=0.0000
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Features 'Automotive AEC-Q200'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Terminations '2'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '620R'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MBB 0207 - Professional'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+TOP 0 4.0168504 0.74 180 N 2 0 R4-1
+TOP 1 3.6231496 0.74 180 N 15 4 R4-2
+#
+# CMP 1
+CMP 4 4.02 2.05 0 N R3 MBB02070C6200FCT00 ;0=2,1=0.0000
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Features 'Automotive AEC-Q200'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Terminations '2'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '620R'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MBB 0207 - Professional'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+TOP 0 3.8231496 2.05 0 N 1 0 R3-1
+TOP 1 4.2168504 2.05 0 N 15 1 R3-2
+#
+# CMP 2
+CMP 0 1.87 1.03 180 N IC7805 L7805 ;0=2,1=0.0000
+PRP Availability 'Unavailable'
+PRP MF 'STMicroelectronics'
+PRP MP 'L7805'
+PRP Package 'TO-263-3 Inchange Semiconductor'
+PRP Price 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/L7805/STMicroelectronics/view-part/563125/?ref=snap'
+PRP Value ''
+TOP 0 1.87 1.13 90 N 19 9 IC7805-GND
+TOP 1 1.97 1.13 90 N 18 3 IC7805-IN
+TOP 2 1.77 1.13 90 N 15 5 IC7805-OUT
+#
+# CMP 3
+CMP 11 4.04 1.04 180 N Q2 BC547 ;0=2,1=0.0000
+PRP Availability 'In Stock'
+PRP Check_prices 'https://www.snapeda.com/parts/BC547/Onsemi/view-part/?ref=eda'
+PRP MF 'ON Semiconductor'
+PRP MP 'BC547'
+PRP Package 'None'
+PRP Price 'None'
+PRP Purchase-URL 'https://pricing.snapeda.com/search/part/BC547/?ref=eda'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/BC547/Onsemi/view-part/?ref=snap'
+PRP Value ''
+TOP 0 4.04 1.04 90 N 16 0 Q2-B
+TOP 1 4.14 1.04 90 N 3 1 Q2-C
+TOP 2 3.94 1.04 90 N 19 2 Q2-E
+#
+# CMP 4
+CMP 11 4.01 1.33 180 N Q1 BC547 ;0=2,1=0.0000
+PRP Availability 'In Stock'
+PRP Check_prices 'https://www.snapeda.com/parts/BC547/Onsemi/view-part/?ref=eda'
+PRP MF 'ON Semiconductor'
+PRP MP 'BC547'
+PRP Package 'None'
+PRP Price 'None'
+PRP Purchase-URL 'https://pricing.snapeda.com/search/part/BC547/?ref=eda'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/BC547/Onsemi/view-part/?ref=snap'
+PRP Value ''
+TOP 0 4.01 1.33 90 N 17 1 Q1-B
+TOP 1 4.11 1.33 90 N 4 2 Q1-C
+TOP 2 3.91 1.33 90 N 19 1 Q1-E
+#
+# CMP 5
+CMP 5 3.83 1.86 0 N D4 LED1 ;0=2,1=0.0000
+PRP LatestRevisionDate '08-Jul-2005'
+PRP LatestRevisionNote 'Mech Layer 1 removed.'
+PRP PackageDescription 'LED; 2 Leads'
+PRP PackageReference 'LED-1'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+TOP 0 3.83 1.91 180 N 1 1 D4-1
+TOP 1 3.83 1.81 180 N 4 3 D4-2
+#
+# CMP 6
+CMP 5 3.84 0.37 0 N D3 LED1 ;0=2,1=0.0000
+PRP LatestRevisionDate '08-Jul-2005'
+PRP LatestRevisionNote 'Mech Layer 1 removed.'
+PRP PackageDescription 'LED; 2 Leads'
+PRP PackageReference 'LED-1'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+TOP 0 3.84 0.42 180 N 2 1 D3-1
+TOP 1 3.84 0.32 180 N 3 2 D3-2
+#
+# CMP 7
+CMP 6 0.62 1.39 90 N T1 ST-3-56 ;0=2,1=0.0000
+PRP Availability 'Unavailable'
+PRP MF ''
+PRP MP 'ST-3-56'
+PRP Package 'None'
+PRP Price 'None'
+PRP Value ''
+TOP 0 0.2262992 1.7837008 90 N 8 1 T1-1
+TOP 1 0.2262992 0.9962992 90 N 7 1 T1-2
+TOP 2 1.0137008 1.5868504 90 N 6 1 T1-3
+TOP 3 1.0137008 1.1931496 90 N 5 1 T1-4
+#
+# CMP 8
+CMP 10 0.49 0.39 90 N J3 282834-3 ;0=2,1=0.3937
+PRP Availability 'Unavailable'
+PRP MF '{_manufacturer_: u_TE Connectivity_}'
+PRP MP '282834-3'
+PRP Package 'None'
+PRP Price 'None'
+PRP Value ''
+TOP 0 0.49 0.585 90 N 8 0 J3-1
+TOP 1 0.49 0.39 90 N 0 31 J3-2
+TOP 2 0.49 0.195 90 N 7 0 J3-3
+#
+# CMP 9
+CMP 9 1.39 1.9 180 N B1 MB10S-13 ;0=1,1=0.0000
+PRP Availability 'In Stock'
+PRP Check_prices 'https://www.snapeda.com/parts/MB10S-13/Diodes+Inc./view-part/?ref=eda'
+PRP MF 'Diodes Inc.'
+PRP MP 'MB10S-13'
+PRP Package 'BESOP-4 Diodes Inc.'
+PRP Price 'None'
+PRP Purchase-URL 'https://pricing.snapeda.com/search/part/MB10S-13/?ref=eda'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/MB10S-13/Diodes+Inc./view-part/?ref=snap'
+PRP Value ''
+TOP 0 1.5041732 1.8517717 180 N 18 1 B1-1
+TOP 1 1.5041732 1.9482283 180 N 19 7 B1-2
+TOP 2 1.2758268 1.9482283 180 N 6 0 B1-3
+TOP 3 1.2758268 1.8517717 180 N 5 0 B1-4
+#
+# CMP 10
+CMP 4 3.47 0.88 270 N R2 MBB02070C6200FCT00 ;0=2,1=0.0000
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Features 'Automotive AEC-Q200'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Terminations '2'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '620R'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MBB 0207 - Professional'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+TOP 0 3.47 0.6831496 270 N 19 4 R2-1
+TOP 1 3.47 1.0768504 270 N 16 2 R2-2
+#
+# CMP 11
+CMP 4 3.41 1.85 90 N R1 MBB02070C6200FCT00 ;0=2,1=0.0000
+PRP Case/Package 'Axial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '2.5mm'
+PRP Features 'Automotive AEC-Q200'
+PRP Lead_Free 'Lead Free'
+PRP Length '6.5mm'
+PRP Max_Operating_Temperature '155°C'
+PRP Max_Power_Dissipation '600mW'
+PRP Military_Standard 'Not'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Through Hole'
+PRP Number_of_Terminations '2'
+PRP Packaging 'Tape and Reel'
+PRP Power_Rating '600mW'
+PRP Radiation_Hardening 'No'
+PRP Resistance '620R'
+PRP Resistor_Type 'Metal Film'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'MBB 0207 - Professional'
+PRP Technology 'THIN FILM'
+PRP Temperature_Coefficient '50ppm/°C'
+PRP Termination 'Axial'
+PRP Tolerance '1%'
+TOP 0 3.41 2.0468504 90 N 17 0 R1-1
+TOP 1 3.41 1.6531496 90 N 19 3 R1-2
+#
+# CMP 12
+CMP 1 3.62 0.37 270 N D2 Diode_1N4001 ;0=2,1=0.1102
+PRP Code_JEDEC 'DO-204-AL'
+PRP ComponentLink1Description 'Manufacturer Link'
+PRP ComponentLink1URL 'http://www.fairchildsemi.com/'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.fairchildsemi.com/ds/1N%2F1N4001.pdf'
+PRP DatasheetVersion '1998'
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Diode, Axial; Body 5.2 x 2.7 mm (LxDia. max), Lead Dia. 0.86 mm (max)'
+PRP PackageReference 'DO-41'
+PRP PackageVersion 'Aug-1999'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+TOP 0 3.62 0.1640945 270 N 3 3 D2-1
+TOP 1 3.62 0.5759055 270 N 15 6 D2-2
+#
+# CMP 13
+CMP 1 3.63 1.85 270 N D1 Diode_1N4001 ;0=2,1=0.1102
+PRP Code_JEDEC 'DO-204-AL'
+PRP ComponentLink1Description 'Manufacturer Link'
+PRP ComponentLink1URL 'http://www.fairchildsemi.com/'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'http://www.fairchildsemi.com/ds/1N%2F1N4001.pdf'
+PRP DatasheetVersion '1998'
+PRP LatestRevisionDate '17-Jul-2002'
+PRP LatestRevisionNote 'Re-released for DXP Platform.'
+PRP PackageDescription 'Diode, Axial; Body 5.2 x 2.7 mm (LxDia. max), Lead Dia. 0.86 mm (max)'
+PRP PackageReference 'DO-41'
+PRP PackageVersion 'Aug-1999'
+PRP Published '8-Jun-2000'
+PRP Publisher 'Altium Limited'
+TOP 0 3.63 1.6440945 270 N 4 1 D1-1
+TOP 1 3.63 2.0559055 270 N 15 3 D1-2
+#
+# CMP 14
+CMP 10 5.32 0.425 90 N J2 282834-3 ;0=2,1=0.3937
+PRP Availability 'Unavailable'
+PRP MF '{_manufacturer_: u_TE Connectivity_}'
+PRP MP '282834-3'
+PRP Package 'None'
+PRP Price 'None'
+PRP Value ''
+TOP 0 5.32 0.62 90 N 11 1 J2-1
+TOP 1 5.32 0.425 90 N 10 1 J2-2
+TOP 2 5.32 0.23 90 N 9 1 J2-3
+#
+# CMP 15
+CMP 10 5.32 1.815 90 N J1 282834-3 ;0=2,1=0.3937
+PRP Availability 'Unavailable'
+PRP MF '{_manufacturer_: u_TE Connectivity_}'
+PRP MP '282834-3'
+PRP Package 'None'
+PRP Price 'None'
+PRP Value ''
+TOP 0 5.32 2.01 90 N 14 1 J1-1
+TOP 1 5.32 1.815 90 N 13 1 J1-2
+TOP 2 5.32 1.62 90 N 12 1 J1-3
+#
+# CMP 16
+CMP 7 4.7 0.435 0 N K2 SRD-05VDC-SL-C ;0=2,1=0.0000
+PRP Availability 'Not in stock'
+PRP Check_prices 'https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda'
+PRP MF 'Songle Relay'
+PRP MP 'SRD-05VDC-SL-C'
+PRP Package 'NON STANDARD-5 Songle Relay'
+PRP Price 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap'
+PRP Value ''
+TOP 0 4.4598425 0.6712205 0 N 15 2 K2-A1
+TOP 1 4.4598425 0.1987795 0 N 3 0 K2-A2
+TOP 2 4.3811024 0.435 0 N 10 0 K2-COM
+TOP 3 4.9401575 0.6712205 0 N 11 0 K2-NC
+TOP 4 4.9401575 0.1987795 0 N 9 0 K2-NO
+#
+# CMP 17
+CMP 7 4.7 1.805 0 N K1 SRD-05VDC-SL-C ;0=2,1=0.0000
+PRP Availability 'Not in stock'
+PRP Check_prices 'https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=eda'
+PRP MF 'Songle Relay'
+PRP MP 'SRD-05VDC-SL-C'
+PRP Package 'NON STANDARD-5 Songle Relay'
+PRP Price 'None'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/SRD-05VDC-SL-C/Songle+Relay/view-part/?ref=snap'
+PRP Value ''
+TOP 0 4.4598425 2.0412205 0 N 15 0 K1-A1
+TOP 1 4.4598425 1.5687795 0 N 4 0 K1-A2
+TOP 2 4.3811024 1.805 0 N 13 0 K1-COM
+TOP 3 4.9401575 2.0412205 0 N 14 0 K1-NC
+TOP 4 4.9401575 1.5687795 0 N 12 0 K1-NO
+#
+# CMP 18
+CMP 2 3.315 0.595 270 N C3 C0603C104K5RACTU ;0=1,1=0.0000
+PRP Automotive 'Yes'
+PRP Automotive_Grade 'Grade 1'
+PRP Capacitance '0.10 µF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 0.1UF 50V X7R 0603'
+PRP Height '0.87mm'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'KEMET'
+PRP Manufacturer_Part_Number 'C0603C104K5RACTU'
+PRP Material 'Ceramic'
+PRP Octopart 'https://octopart.com/c0603c104k5ractu-kemet-139244'
+PRP Package 'C0603C-CF'
+PRP RoHS 'TRUE'
+PRP Temperature '-55°C to +125°C'
+PRP Temperature_Characteristic 'X7R'
+PRP Temperature_Coefficient '30ppm/°C'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Tolerance '0.1'
+PRP Value '0.10 µF'
+PRP Voltage_Rating '50 V'
+TOP 0 3.315 0.571378 270 N 15 7 C3-1
+TOP 1 3.315 0.618622 270 N 19 5 C3-2
+#
+# CMP 19
+CMP 2 1.87 1.34 180 N C2 C0603C104K5RACTU ;0=1,1=0.0000
+PRP Automotive 'Yes'
+PRP Automotive_Grade 'Grade 1'
+PRP Capacitance '0.10 µF'
+PRP Category 'Cap'
+PRP ComponentLink2Description 'Datasheet'
+PRP ComponentLink2URL 'https://api.kemet.com/component-edge/download/datasheet/C0603C100J5GACAUTO.pdf'
+PRP Device_Class_L1 'Passive Components'
+PRP Device_Class_L2 'Capacitors'
+PRP Device_Class_L3 'Ceramic Capacitors'
+PRP Digikey_Description 'CAP CER 0.1UF 50V X7R 0603'
+PRP Height '0.87mm'
+PRP Lead_Free 'Yes'
+PRP Manufacturer 'KEMET'
+PRP Manufacturer_Part_Number 'C0603C104K5RACTU'
+PRP Material 'Ceramic'
+PRP Octopart 'https://octopart.com/c0603c104k5ractu-kemet-139244'
+PRP Package 'C0603C-CF'
+PRP RoHS 'TRUE'
+PRP Temperature '-55°C to +125°C'
+PRP Temperature_Characteristic 'X7R'
+PRP Temperature_Coefficient '30ppm/°C'
+PRP Temperature_Range_High '+125°C'
+PRP Temperature_Range_Low '-55°C'
+PRP Tolerance '0.1'
+PRP Value '0.10 µF'
+PRP Voltage_Rating '50 V'
+TOP 0 1.893622 1.34 180 N 18 0 C2-1
+TOP 1 1.846378 1.34 180 N 19 10 C2-2
+#
+# CMP 20
+CMP 3 1.88 1.69 0 N C1 EEEFP1E471AP ;0=1,1=0.0000
+PRP Capacitance '470uF'
+PRP Case/Package 'Radial'
+PRP Construction 'Cylindrical'
+PRP Contact_Plating 'Tin'
+PRP Diameter '10mm'
+PRP ESR_(Equivalent_Series_Resistance) '60mR'
+PRP Height '10.2mm'
+PRP Height_-_Seated_(Max) '0.402inch'
+PRP Lead_Free 'Lead Free'
+PRP Lead_Pitch '4.6mm'
+PRP Leakage_Current '117.5uA'
+PRP Length '10.5mm'
+PRP Life_(Hours) '2000Hour'
+PRP Material 'Aluminium'
+PRP Max_Operating_Temperature '105°C'
+PRP Min_Operating_Temperature '-55°C'
+PRP Mount 'Surface Mount'
+PRP Number_of_Pins '2'
+PRP Package_Quantity '500'
+PRP Packaging 'Tape and Reel'
+PRP Polarity 'Polar'
+PRP Radiation_Hardening 'No'
+PRP REACH_SVHC 'No SVHC'
+PRP Ripple_Current '1.19A'
+PRP Ripple_Current_(AC) '1.19A'
+PRP RoHS_Compliant 'Yes'
+PRP Series 'FP'
+PRP Termination 'SMD/SMT'
+PRP Tolerance '20%'
+PRP Voltage '25V'
+PRP Voltage_Rating '25V'
+PRP Voltage_Rating_(DC) '25V'
+PRP Width '10.3mm'
+TOP 0 1.7087402 1.69 0 N 19 6 C1-1
+TOP 1 2.0512598 1.69 0 N 18 2 C1-2
+#
+# CMP 21
+CMP 8 2.705 1.215 0 N A1 113990105 ;0=2,1=0.0000
+PRP Availability 'In Stock'
+PRP Check_prices 'https://www.snapeda.com/parts/113990105/Seeed+Technology+Co.%252C+Ltd/view-part/?ref=eda'
+PRP MF 'Seeed Technology Co., Ltd'
+PRP MP '113990105'
+PRP Package 'None'
+PRP Price 'None'
+PRP Purchase-URL 'https://pricing.snapeda.com/search/part/113990105/?ref=eda'
+PRP SnapEDA_Link 'https://www.snapeda.com/parts/113990105/Seeed+Technology+Co.%252C+Ltd/view-part/?ref=snap'
+PRP Value ''
+TOP 0 2.305 0.365 0 N 0 0 A1-empty-1
+TOP 1 3.105 0.365 0 N 0 1 A1-empty-2
+TOP 2 3.105 2.065 0 N 0 2 A1-empty-3
+TOP 3 2.305 2.065 0 N 0 3 A1-empty-4
+TOP 4 2.255 1.915 0 N 0 30 A1-J1_1
+TOP 5 2.255 1.815 0 N 0 29 A1-J1_2
+TOP 6 2.255 1.715 0 N 0 28 A1-J1_3
+TOP 7 2.255 1.615 0 N 0 27 A1-J1_4
+TOP 8 2.255 1.515 0 N 0 26 A1-J1_5
+TOP 9 2.255 1.415 0 N 0 25 A1-J1_6
+TOP 10 2.255 1.315 0 N 0 24 A1-J1_7
+TOP 11 2.255 1.215 0 N 0 23 A1-J1_8
+TOP 12 2.255 1.115 0 N 0 22 A1-J1_9
+TOP 13 2.255 1.015 0 N 0 21 A1-J1_10
+TOP 14 2.255 0.915 0 N 0 20 A1-J1_11
+TOP 15 2.255 0.815 0 N 0 19 A1-J1_12
+TOP 16 2.255 0.715 0 N 0 18 A1-J1_13
+TOP 17 2.255 0.615 0 N 0 17 A1-J1_14
+TOP 18 2.255 0.515 0 N 0 16 A1-J1_15
+TOP 19 3.155 1.915 0 N 0 15 A1-J2_1
+TOP 20 3.155 1.815 0 N 0 14 A1-J2_2
+TOP 21 3.155 1.715 0 N 17 2 A1-J2_3
+TOP 22 3.155 1.615 0 N 16 1 A1-J2_4
+TOP 23 3.155 1.515 0 N 0 13 A1-J2_5
+TOP 24 3.155 1.415 0 N 0 12 A1-J2_6
+TOP 25 3.155 1.315 0 N 0 11 A1-J2_7
+TOP 26 3.155 1.215 0 N 0 10 A1-J2_8
+TOP 27 3.155 1.115 0 N 0 9 A1-J2_9
+TOP 28 3.155 1.015 0 N 0 8 A1-J2_10
+TOP 29 3.155 0.915 0 N 0 7 A1-J2_11
+TOP 30 3.155 0.815 0 N 0 6 A1-J2_12
+TOP 31 3.155 0.715 0 N 0 5 A1-J2_13
+TOP 32 3.155 0.615 0 N 19 8 A1-J2_14
+TOP 33 3.155 0.515 0 N 0 4 A1-J2_15
+#

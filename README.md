@@ -92,7 +92,7 @@ void loop() {
 
 4. Set up the App/Web Interface
 
-- Use Blynk/Firebase/App Inventor
+- Use Blynk or Sinric Pro IoT-Web Interface. ( Refer Official Website for Setup )
 - Link buttons to GPIO pins used in the code
 
 Blynk: https://blynk.io/
